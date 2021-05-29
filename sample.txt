@@ -1,0 +1,976 @@
+====================[ Build | MBUltra | Debug x64 ]=============================
+"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --build D:\Repositories\MarbleBlast\OpenMBU\build\debug-x64 --target MBUltra
+[1/649] Building C object tools\cmake\CMakeFiles\libogg.dir\__\__\engine\lib\libogg\src\framing.c.obj
+[2/649] Building C object tools\cmake\CMakeFiles\libogg.dir\__\__\engine\lib\libogg\src\bitwise.c.obj
+[3/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\threadSafeQueue.cpp.obj
+[4/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasOldHeightfield.cpp.obj
+[5/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasDiscreteMesh.cpp.obj
+[6/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasOldGenerator.cpp.obj
+[7/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasImportTiles.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[8/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasTOCAggregator.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[9/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasConfigChunk.cpp.obj
+[10/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasConsoleGenerator.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[11/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasHeightfieldGenerator.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[12/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasImportOld.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[13/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasImportLargeImage.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[14/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasResourceGeomTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[15/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\editor\atlasOldMesher.cpp.obj
+[16/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasGeomChunk.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[17/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasGeomCollision.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[18/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasResourceConfigTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceConfigStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceConfigTOC.h(63): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceConfigStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceConfigStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[19/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasResourceTexTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[20/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMap.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[21/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasTexChunk.cpp.obj
+[22/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\audioEmitter.cpp.obj
+[23/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMapBatcher.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[24/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMapCache.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[25/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMapDebugCache.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[26/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\badWordFilter.cpp.obj
+[27/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\ambientAudioManager.cpp.obj
+[28/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasInstanceTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+[29/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMapUniqueCache.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[30/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasInstanceGeomTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[31/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasInstanceTexTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[32/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasInstance2.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[33/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\banList.cpp.obj
+[34/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\aiClient.cpp.obj
+[35/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\aiPlayer.cpp.obj
+[36/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\resource\atlasTexChunkD3D.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[37/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\collisionTest.cpp.obj
+[38/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\cameraSpline.cpp.obj
+..\..\engine\source\game\cameraSpline.cpp(176): warning C4311: 'type cast': pointer truncation from 'CameraSpline *' to 'U32'
+[39/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\aiConnection.cpp.obj
+[40/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\runtime\atlasClipMapBlenderCache.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceTexTOC.h(33): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceTexStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceTexStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[41/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameFunctions.cpp.obj
+[42/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\debugView.cpp.obj
+[43/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\debris.cpp.obj
+..\..\engine\source\game\debris.cpp(283): warning C4311: '<function-style-cast>': pointer truncation from 'ExplosionData *' to 'SimObjectId'
+[44/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameProcess.cpp.obj
+[45/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\camera.cpp.obj
+[46/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\version.cpp.obj
+[47/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\guiNoMouseCtrl.cpp.obj
+[48/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameConnectionEvents.cpp.obj
+[49/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameConnection.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[50/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameTSCtrl.cpp.obj
+[51/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\gameBase.cpp.obj
+[52/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fps\guiCrossHairHud.cpp.obj
+[53/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fps\guiClockHud.cpp.obj
+[54/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\guiPlayerView.cpp.obj
+[55/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\game.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[56/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\missionArea.cpp.obj
+[57/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fps\guiHealthBarHud.cpp.obj
+[58/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\tsStatic.cpp.obj
+[59/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\pathCamera.cpp.obj
+[60/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fps\guiShapeNameHud.cpp.obj
+[61/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\rigid.cpp.obj
+[62/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\moveManager.cpp.obj
+[63/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\scopeAlwaysShape.cpp.obj
+[64/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\item.cpp.obj
+[65/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\missionMarker.cpp.obj
+[66/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\physicalZone.cpp.obj
+[67/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\sphere.cpp.obj
+[68/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\tickCache.cpp.obj
+[69/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxTextureProfile.cpp.obj
+[70/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\main.cpp.obj
+[71/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\shadow.cpp.obj
+[72/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxVertexBuffer.cpp.obj
+[73/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\player.cpp.obj
+..\..\engine\source\game\player.cpp(259): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\player.cpp(581): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\player.cpp(696): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[74/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxTextureHandle.cpp.obj
+[75/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\shapeCollision.cpp.obj
+[76/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\projectile.cpp.obj
+[77/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\showTSShape.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[78/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\shapeImage.cpp.obj
+..\..\engine\source\game\shapeImage.cpp(230): warning C4311: '<function-style-cast>': pointer truncation from 'ProjectileData *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(235): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(449): warning C4311: '<function-style-cast>': pointer truncation from 'ProjectileData *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(470): warning C4311: '<function-style-cast>': pointer truncation from 'DebrisData *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(518): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(525): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\shapeImage.cpp(557): warning C4312: 'type cast': conversion from 'U32' to 'ProjectileData *' of greater size
+..\..\engine\source\game\shapeImage.cpp(633): warning C4312: 'type cast': conversion from 'U32' to 'ParticleEmitterData *' of greater size
+..\..\engine\source\game\shapeImage.cpp(640): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[79/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxTextureManager.cpp.obj
+[80/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\staticShape.cpp.obj
+..\..\engine\source\game\staticShape.cpp(403): warning C4533: initialization of 'nodeVec' is skipped by 'goto LABEL_19'
+..\..\engine\source\game\staticShape.cpp(366): note: see declaration of 'nodeVec'
+..\..\engine\source\game\staticShape.cpp(403): note: see declaration of 'LABEL_19'
+..\..\engine\source\game\staticShape.cpp(403): warning C4533: initialization of 'node' is skipped by 'goto LABEL_19'
+..\..\engine\source\game\staticShape.cpp(363): note: see declaration of 'node'
+..\..\engine\source\game\staticShape.cpp(403): note: see declaration of 'LABEL_19'
+..\..\engine\source\game\staticShape.cpp(411): warning C4533: initialization of 'nodeVec' is skipped by 'goto LABEL_17'
+..\..\engine\source\game\staticShape.cpp(366): note: see declaration of 'nodeVec'
+..\..\engine\source\game\staticShape.cpp(401): note: see declaration of 'LABEL_17'
+..\..\engine\source\game\staticShape.cpp(411): warning C4533: initialization of 'node' is skipped by 'goto LABEL_17'
+..\..\engine\source\game\staticShape.cpp(363): note: see declaration of 'node'
+..\..\engine\source\game\staticShape.cpp(401): note: see declaration of 'LABEL_17'
+[81/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\cameraFXMgr.cpp.obj
+[82/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\trigger.cpp.obj
+[83/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxTextureObject.cpp.obj
+[84/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\shapeBase.cpp.obj
+..\..\engine\source\game\shapeBase.cpp(552): warning C4311: '<function-style-cast>': pointer truncation from 'DebrisData *' to 'SimObjectId'
+..\..\engine\source\game\shapeBase.cpp(2137): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\shapeBase.cpp(3211): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[85/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\particle.cpp.obj
+[86/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\particleEmitterNode.cpp.obj
+[87/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\net\httpObject.cpp.obj
+[88/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\fxFoliageReplicator.cpp.obj
+[89/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\fxLight.cpp.obj
+[90/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\explosion.cpp.obj
+[91/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\fxSunLight.cpp.obj
+[92/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\precipitation.cpp.obj
+[93/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\net\net.cpp.obj
+[94/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\net\tcpObject.cpp.obj
+[95/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\marble\marble.cpp.obj
+..\..\engine\source\game\marble\marble.cpp(2501): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\marble\marble.cpp(2549): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[96/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\fx\particleEmitter.cpp.obj
+[97/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\marble\powerup.cpp.obj
+[98/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\marble\marblecamera.cpp.obj
+[99/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\marble\marblephysics.cpp.obj
+[100/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\bitmapGif.cpp.obj
+[101/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\net\netTest.cpp.obj
+[102/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\bitmapBmp.cpp.obj
+[103/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\bitmapJpeg.cpp.obj
+[104/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\marble\marblecollision.cpp.obj
+[105/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\guiSpeedometer.cpp.obj
+[106/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\debugDraw.cpp.obj
+[107/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\bitmapMng.cpp.obj
+[108/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\bitmapPng.cpp.obj
+[109/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\flyingVehicle.cpp.obj
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(117): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(121): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(183): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(192): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(222): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+..\..\engine\source\game\vehicles\flyingVehicle.cpp(229): warning C4312: 'type cast': conversion from 'U32' to 'ParticleEmitterData *' of greater size
+[110/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\vehicleBlocker.cpp.obj
+[111/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\net\serverQuery.cpp.obj
+[112/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\wheeledVehicle.cpp.obj
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(245): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(248): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(365): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(370): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(385): warning C4312: 'type cast': conversion from 'U32' to 'ParticleEmitterData *' of greater size
+..\..\engine\source\game\vehicles\wheeledVehicle.cpp(390): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[113/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\ddsLoader.cpp.obj
+[114/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gBitmap.cpp.obj
+[115/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gPalette.cpp.obj
+[116/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\cubemapData.cpp.obj
+[117/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\hoverVehicle.cpp.obj
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(200): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(203): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(249): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(256): warning C4311: '<function-style-cast>': pointer truncation from 'ParticleEmitterData *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(299): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+..\..\engine\source\game\vehicles\hoverVehicle.cpp(305): warning C4312: 'type cast': conversion from 'U32' to 'ParticleEmitterData *' of greater size
+[118/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gammaBuffer.cpp.obj
+[119/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\game\vehicles\vehicle.cpp.obj
+..\..\engine\source\game\vehicles\vehicle.cpp(141): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\vehicle.cpp(190): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\game\vehicles\vehicle.cpp(283): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+[120/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxVertexColor.cpp.obj
+[121/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gFont.cpp.obj
+[122/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxStateFrame.cpp.obj
+[123/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gNewFont.cpp.obj
+[124/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxCardProfile.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[125/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxShaderMgr.cpp.obj
+[126/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxCanon.cpp.obj
+[127/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxStructs.cpp.obj
+[128/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxDevice.cpp.obj
+[129/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\reflectPlane.cpp.obj
+[130/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\screenshot.cpp.obj
+[131/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\primBuilder.cpp.obj
+[132/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\glowBuffer.cpp.obj
+[133/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\gfxInit.win32.cpp.obj
+[134/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiPaneCtrl.cpp.obj
+[135/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\DXDiagNVUtil.cpp.obj
+[136/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DDevice.regen-states.cpp.obj
+[137/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DEnumTranslate.cpp.obj
+[138/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DTypes.cpp.obj
+[139/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DTextureObject.cpp.obj
+[140/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DDevice.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[141/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DCardProfiler.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[142/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DCubemap.cpp.obj
+[143/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DShader.cpp.obj
+[144/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DTextureManager.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[145/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiFrameCtrl.cpp.obj
+[146/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiCtrlArrayCtrl.cpp.obj
+[147/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiAutoScrollCtrl.cpp.obj
+[148/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiStackCtrl.cpp.obj
+[149/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DShaderMgr.cpp.obj
+[150/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\gfxD3DVertexBuffer.cpp.obj
+[151/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiWindowCtrl.cpp.obj
+[152/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiBitmapBorderCtrl.cpp.obj
+[153/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiBackgroundCtrl.cpp.obj
+[154/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiButtonCtrl.cpp.obj
+[155/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\containers\guiScrollCtrl.cpp.obj
+[156/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiBorderButton.cpp.obj
+[157/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiBitmapCtrl.cpp.obj
+[158/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiBitmapButtonCtrl.cpp.obj
+[159/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiButtonBaseCtrl.cpp.obj
+[160/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiCheckBoxCtrl.cpp.obj
+[161/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiGameListMenuCtrl.cpp.obj
+[162/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiConsole.cpp.obj
+[163/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiConsoleEditCtrl.cpp.obj
+[164/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiConsoleTextCtrl.cpp.obj
+[165/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiMLTextCtrl.cpp.obj
+[166/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiRadioCtrl.cpp.obj
+[167/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiSliderCtrl.cpp.obj
+[168/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiTextCtrl.cpp.obj
+[169/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gfx\D3D\screenshotD3D.cpp.obj
+[170/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiMLTextEditCtrl.cpp.obj
+[171/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiTextEditSliderCtrl.cpp.obj
+[172/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiTextListCtrl.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[173/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiXboxOptionListCtrl.cpp.obj
+[174/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiPopUpCtrl.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[175/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiTreeViewCtrl.cpp.obj
+[176/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgDecalProjector.cc.obj
+..\..\engine\source\lightingSystem\sgDecalProjector.cc(176): warning C4311: '<function-style-cast>': pointer truncation from 'sgDecalProjector *' to 'U32'
+[177/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiXboxListCtrl.cpp.obj
+[178/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\controls\guiTextEditCtrl.cpp.obj
+[179/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiTypes.cpp.obj
+..\..\engine\source\gui\core\guiTypes.cpp(15): warning C4068: unknown pragma 'error'
+[180/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorSubObject.cpp.obj
+[181/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\mirrorSubObject.cpp.obj
+[182/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiDefaultControlRender.cpp.obj
+[183/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\blobShadow.cpp.obj
+[184/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiArrayCtrl.cpp.obj
+[185/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiControl.cpp.obj
+[186/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiCanvas.cpp.obj
+[187/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\pathedInterior.cpp.obj
+..\..\engine\source\interior\pathedInterior.cpp(51): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+..\..\engine\source\interior\pathedInterior.cpp(63): warning C4312: 'type cast': conversion from 'U32' to 'SFXProfile *' of greater size
+..\..\engine\source\interior\pathedInterior.cpp(78): warning C4311: '<function-style-cast>': pointer truncation from 'SFXProfile *' to 'SimObjectId'
+[188/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiControlListPopup.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[189/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiDebugger.cpp.obj
+[190/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiFilterCtrl.cpp.obj
+[191/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiEditCtrl.cpp.obj
+[192/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiGraphCtrl.cpp.obj
+[193/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiBarCtrl.cpp.obj
+[194/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiAviBitmapCtrl.cpp.obj
+[195/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiMenuBar.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[196/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\core\guiTSControl.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[197/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiFadeinBitmapCtrl.cpp.obj
+[198/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiChunkedBitmapCtrl.cpp.obj
+[199/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiInspectorTypes.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[200/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiMessageVectorCtrl.cpp.obj
+[201/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\editor\guiInspector.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[202/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiProgressCtrl.cpp.obj
+[203/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\i18n\lang.cpp.obj
+[204/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\shiny\guiTickCtrl.cpp.obj
+[205/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\utility\guiBubbleTextCtrl.cpp.obj
+[206/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiBitmapAnimation.cpp.obj
+[207/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\i18n\i18n.cpp.obj
+[208/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\utility\guiMouseEventCtrl.cpp.obj
+[209/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\utility\guiInputCtrl.cpp.obj
+[210/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\utility\messageVector.cpp.obj
+[211/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\floorPlanRes.cpp.obj
+[212/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiScoreCountHud.cpp.obj
+[213/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\forceField.cpp.obj
+[214/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\gui\game\guiEnergyBarHud.cpp.obj
+[215/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorDebug.cpp.obj
+[216/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorResObjects.cpp.obj
+[217/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorIO.cpp.obj
+[218/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorMapRes.cpp.obj
+[219/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interior.cpp.obj
+[220/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorRender.cpp.obj
+[221/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorCollision.cpp.obj
+[222/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorRes.cpp.obj
+[223/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorLMManager.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[224/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorInstance.cpp.obj
+[225/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderObjectMgr.cpp.obj
+[226/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderGlowMgr.cpp.obj
+[227/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorMap.cpp.obj
+[228/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\interior\interiorSimpleMesh.cpp.obj
+[229/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderInteriorMgr.cpp.obj
+..\..\engine\source\renderInstance\renderInteriorMgr.cpp(87): warning C4311: 'type cast': pointer truncation from 'MatInstance *' to 'U32'
+..\..\engine\source\renderInstance\renderInteriorMgr.cpp(93): warning C4311: 'type cast': pointer truncation from 'T *' to 'U32'
+        with
+        [
+            T=GFXVertexBuffer
+        ]
+[230/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\win32WinMgr.cpp.obj
+[231/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderMeshMgr.cpp.obj
+[232/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgDynamicRangeLighting.cc.obj
+[233/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgFormatManager.cc.obj
+[234/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgLightingModel.cc.obj
+[235/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderInstMgr.cpp.obj
+[236/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgLightManager.cc.obj
+[237/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgLightObject.cc.obj
+[238/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgObjectShadows.cc.obj
+[239/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgLightMap.cc.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[240/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\materialPropertyMap.cpp.obj
+[241/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgSceneLightingInterior.cc.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[242/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mConsoleFunctions.cpp.obj
+[243/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mBox.cpp.obj
+[244/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\matInstance.cpp.obj
+[245/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\customMaterial.cpp.obj
+[246/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgMissionLightingFilter.cc.obj
+[247/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgScenePersist.cc.obj
+[248/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgObjectBasedProjector.cc.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[249/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\volLight.cc.obj
+[250/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgSceneLighting.cc.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[251/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mMathFn.cpp.obj
+[252/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\shaderData.cpp.obj
+[253/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\material.cpp.obj
+[254/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mRandom.cpp.obj
+[255/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\materials\materialList.cpp.obj
+[256/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mQuadPatch.cpp.obj
+[257/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mMathSSE.cpp.obj
+[258/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mPlaneTransformer.cpp.obj
+[259/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mMathAMD.cpp.obj
+[260/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mQuat.cpp.obj
+[261/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mSolver.cpp.obj
+[262/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mMatrix.cpp.obj
+[263/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mMath_C.cpp.obj
+[264/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mSplinePatch.cpp.obj
+[265/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\lightingSystem\sgSceneLightingTerrain.cc.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[266/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformCPU.cpp.obj
+[267/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformAssert.cpp.obj
+[268/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformRedBook.cpp.obj
+[269/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mathUtils.cpp.obj
+[270/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\profiler.cpp.obj
+[271/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\math\mathTypes.cpp.obj
+[272/649] Linking C static library tools\cmake\libogg.lib
+[273/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformString.cpp.obj
+[274/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\bitrate.c.obj
+[275/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\analysis.c.obj
+[276/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformFileIO.cpp.obj
+[277/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformMemory.cpp.obj
+[278/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\codebook.c.obj
+[279/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\gameInterface.cpp.obj
+[280/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\block.c.obj
+[281/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\lookup.c.obj
+[282/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\lpc.c.obj
+[283/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\info.c.obj
+[284/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\lsp.c.obj
+[285/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\floor0.c.obj
+[286/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\envelope.c.obj
+[287/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\floor1.c.obj
+[288/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\mdct.c.obj
+[289/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\sharedbook.c.obj
+[290/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platform\platformVideo.cpp.obj
+[291/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\smallft.c.obj
+[292/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\registry.c.obj
+[293/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\res0.c.obj
+[294/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\synthesis.c.obj
+[295/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\window.c.obj
+[296/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\psy.c.obj
+[297/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\mapping0.c.obj
+[298/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\vorbisfile.c.obj
+[299/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderElemMgr.cpp.obj
+..\..\engine\source\renderInstance\renderElemMgr.cpp(126): warning C4311: 'type cast': pointer truncation from 'MatInstance *' to 'U32'
+..\..\engine\source\renderInstance\renderElemMgr.cpp(132): warning C4311: 'type cast': pointer truncation from 'T *' to 'U32'
+        with
+        [
+            T=GFXVertexBuffer
+        ]
+[300/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\abstractPolyList.cpp.obj
+[301/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\concretePolyList.cpp.obj
+[302/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\clippedPolyList.cpp.obj
+[303/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\earlyOutPolyList.cpp.obj
+[304/649] Building C object tools\cmake\CMakeFiles\libvorbis.dir\__\__\engine\lib\libvorbis\lib\vorbisenc.c.obj
+[305/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\depthSortList.cpp.obj
+[306/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\astNodes.cpp.obj
+[307/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\polyhedron.cpp.obj
+[308/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\extrudedPolyList.cpp.obj
+[309/649] Linking C static library tools\cmake\libvorbis.lib
+[310/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\gjk.cpp.obj
+[311/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\CMDscan.cpp.obj
+[312/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\boxConvex.cpp.obj
+[313/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\planeExtractor.cpp.obj
+[314/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\convex.cpp.obj
+[315/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\polytope.cpp.obj
+[316/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\astAlloc.cpp.obj
+[317/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\optimizedPolyList.cpp.obj
+[318/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\collision\convexBrush.cpp.obj
+[319/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\codeBlock.cpp.obj
+[320/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleParser.cpp.obj
+[321/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\cmdgram.cpp.obj
+cmdgram.y(28): warning C4005: 'alloca': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\malloc.h(176): note: see previous definition of 'alloca'
+[322/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\compiler.cpp.obj
+[323/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleObject.cpp.obj
+[324/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleLogger.cpp.obj
+[325/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleDoc.cpp.obj
+[326/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleInternal.cpp.obj
+[327/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleTypes.cpp.obj
+[328/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\simBase.cpp.obj
+[329/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\console.cpp.obj
+[330/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\scriptObject.cpp.obj
+[331/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\consoleFunctions.cpp.obj
+[332/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\dataChunker.cpp.obj
+[333/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\crc.cpp.obj
+[334/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\compiledEval.cpp.obj
+[335/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\dynamicTypes.cpp.obj
+[336/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\simDictionary.cpp.obj
+[337/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\simManager.cpp.obj
+[338/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\tDictionary.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[339/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\filterStream.cpp.obj
+[340/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\stringStack.cpp.obj
+[341/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\fileStream.cpp.obj
+[342/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\dnet.cpp.obj
+[343/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\iTickable.cpp.obj
+[344/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\fileObject.cpp.obj
+[345/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\bitTables.cpp.obj
+[346/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\telnetConsole.cpp.obj
+[347/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\memStream.cpp.obj
+[348/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\telnetDebugger.cpp.obj
+[349/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\console\typeValidators.cpp.obj
+[350/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\bitRender.cpp.obj
+[351/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\bitStream.cpp.obj
+[352/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\findMatch.cpp.obj
+[353/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\idGenerator.cpp.obj
+[354/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\nTypes.cpp.obj
+[355/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\frameAllocator.cpp.obj
+[356/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\chunkFile.cpp.obj
+[357/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\resizeStream.cpp.obj
+[358/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\stringTable.cpp.obj
+[359/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\resDictionary.cpp.obj
+[360/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\stringBuffer.cpp.obj
+[361/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\units.cpp.obj
+[362/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\resManager.cpp.obj
+[363/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\tVector.cpp.obj
+[364/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\nStream.cpp.obj
+[365/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\unicode.cpp.obj
+[366/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\zipAggregate.cpp.obj
+[367/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\tokenizer.cpp.obj
+[368/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\zipHeaders.cpp.obj
+[369/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\core\zipSubStream.cpp.obj
+[370/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\creator.cpp.obj
+[371/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\guiTerrPreviewCtrl.cpp.obj
+[372/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasHeightfield.cpp.obj
+[373/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasGen.cpp.obj
+[374/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\terraformerNoise.cpp.obj
+[375/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\editor.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[376/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\terrainActions.cpp.obj
+[377/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\editTSCtrl.cpp.obj
+[378/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\terraformer.cpp.obj
+[379/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\terraformerTexture.cpp.obj
+[380/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\missionAreaEditor.cpp.obj
+[381/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasCollision.cpp.obj
+[382/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasDeferredIO.cpp.obj
+[383/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasDeferredFile.cpp.obj
+[384/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\terrainEditor.cpp.obj
+[385/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\editor\worldEditor.cpp.obj
+[386/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasTQTFile.cpp.obj
+[387/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasInstance.cpp.obj
+[388/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasResourceEntry.cpp.obj
+[389/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasChunk.cpp.obj
+[390/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasMesher.cpp.obj
+[391/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasInstanceEntry.cpp.obj
+[392/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasRequestNote.cpp.obj
+[393/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasResourceInfo.cpp.obj
+[394/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasResource.cpp.obj
+[395/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasBaseTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+[396/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasResourceTOC.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+[397/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasClassFactory.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[398/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\core\atlasFile.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+[399/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderZOnlyMgr.cpp.obj
+[400/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderTranslucentMgr.cpp.obj
+..\..\engine\source\renderInstance\renderTranslucentMgr.cpp(57): warning C4311: 'type cast': pointer truncation from 'MatInstance *' to 'U32'
+[401/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sgUtil.cpp.obj
+[402/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\lightManager.cpp.obj
+[403/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\detailManager.cpp.obj
+[404/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\renderInstance\renderRefractMgr.cpp.obj
+[405/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\windingClipper.cpp.obj
+[406/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxEnvironment.cpp.obj
+[407/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sceneGraph.cpp.obj
+[408/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sceneTraversal.cpp.obj
+[409/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sceneState.cpp.obj
+[410/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sceneRoot.cpp.obj
+[411/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\atlas\atlasTQTFileD3D.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\core/tDictionary.h(26): warning C4311: 'type cast': pointer truncation from 'const void *' to 'U32'
+[412/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxDevice.cpp.obj
+[413/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxResource.cpp.obj
+[414/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\sceneLighting.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[415/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxProvider.cpp.obj
+[416/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\null\sfxNullBuffer.cpp.obj
+[417/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxWavResource.cpp.obj
+[418/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxDescription.cpp.obj
+[419/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxListener.cpp.obj
+[420/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\vorbis\sfxOggResource.cpp.obj
+[421/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxProfile.cpp.obj
+[422/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxSource.cpp.obj
+[423/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\null\sfxNullDevice.cpp.obj
+[424/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\vorbis\vorbisStream.cpp.obj
+[425/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\sfxSystem.cpp.obj
+[426/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\langElement.cpp.obj
+[427/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sceneGraph\shadowVolumeBSP.cpp.obj
+[428/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\null\sfxNullVoice.cpp.obj
+[429/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\pixSpecular.cpp.obj
+[430/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\null\sfxNullProvider.cpp.obj
+[431/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\shaderFeature.cpp.obj
+[432/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\shaderComp.cpp.obj
+[433/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\actionMap.cpp.obj
+[434/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\shaderGenManager.cpp.obj
+[435/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\featureMgr.cpp.obj
+[436/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\bump.cpp.obj
+[437/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\dsound\sfxDSVoice.cpp.obj
+[438/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netEvent.cpp.obj
+[439/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\shaderGen.cpp.obj
+[440/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\dsound\sfxDSProvider.cpp.obj
+[441/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\connectionStringTable.cpp.obj
+[442/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netConnection.cpp.obj
+[443/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\dsound\sfxDSBuffer.cpp.obj
+[444/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\dsound\sfxDSDevice.cpp.obj
+[445/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netDownload.cpp.obj
+[446/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netGhost.cpp.obj
+[447/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\decalManager.cpp.obj
+[448/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netStringTable.cpp.obj
+[449/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\shaderGen\shaderOp.cpp.obj
+[450/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\processList.cpp.obj
+[451/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\fluidRender.cpp.obj
+[452/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netInterface.cpp.obj
+[453/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\netObject.cpp.obj
+[454/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\bvQuadTree.cpp.obj
+[455/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\fluidQuadTree.cpp.obj
+[456/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\blender.cpp.obj
+[457/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\simPath.cpp.obj
+[458/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\fluidSupport.cpp.obj
+[459/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\sceneObject.cpp.obj
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(56): warning C4312: 'type cast': conversion from 'U32' to 'AtlasTOC *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasFile.h(57): warning C4312: 'type cast': conversion from 'U32' to 'AtlasChunk *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(388): warning C4311: 'type cast': pointer truncation from 'AtlasReadNote *' to 'U32'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(379): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPopulateChunkReadNote(AtlasReadNote *)'
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/resource/atlasResourceGeomTOC.h(47): note: see reference to class template instantiation 'AtlasResourceTOC<AtlasResourceGeomStub>' being compiled
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(374): warning C4312: 'type cast': conversion from 'U32' to 'AtlasReadNote *' of greater size
+D:\Repositories\MarbleBlast\OpenMBU\engine\source\atlas/core/atlasResourceTOC.h(373): note: while compiling class template member function 'void AtlasResourceTOC<AtlasResourceGeomStub>::cbPostBackToAtlasFile(U32,AtlasDeferredIO *)'
+[460/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\sky.cpp.obj
+[461/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sim\pathManager.cpp.obj
+[462/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrData.cpp.obj
+[463/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrCollision.cpp.obj
+[464/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsAnimate.cpp.obj
+[465/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrBatch.cpp.obj
+[466/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\sun.cpp.obj
+[467/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrLighting.cpp.obj
+[468/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsIntegerSet.cpp.obj
+[469/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrRender.cpp.obj
+[470/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsCollision.cpp.obj
+[471/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\terrTexture.cpp.obj
+[472/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsShapeAlloc.cpp.obj
+[473/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsLastDetail.cpp.obj
+[474/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsDump.cpp.obj
+[475/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\terrain\waterBlock.cpp.obj
+[476/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsMaterialList.cpp.obj
+[477/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsDecal.cpp.obj
+[478/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsPartInstance.cpp.obj
+[479/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsShapeConstruct.cpp.obj
+[480/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\util\rectClipper.cpp.obj
+[481/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsShapeInstance.cpp.obj
+[482/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\xblive\xbliveFunctions.cpp.obj
+[483/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\util\triBoxCheck.cpp.obj
+[484/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsTransform.cpp.obj
+[485/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsThread.cpp.obj
+[486/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsShape.cpp.obj
+[487/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\sfxALBuffer.cpp.obj
+[488/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsSortedMesh.cpp.obj
+[489/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\util\frustrumCuller.cpp.obj
+[490/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\util\quadTreeTracer.cpp.obj
+[491/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\aldlist.cpp.obj
+[492/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsShapeOldRead.cpp.obj
+[493/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcparam.c.obj
+[494/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\ts\tsMesh.cpp.obj
+[495/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jctrans.c.obj
+[496/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdapimin.c.obj
+[497/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\sfxALProvider.cpp.obj
+[498/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcprepct.c.obj
+[499/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcsample.c.obj
+[500/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcphuff.c.obj
+[501/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\sfxALDevice.cpp.obj
+[502/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\sfxALVoice.cpp.obj
+[503/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winAsmBlit.cpp.obj
+[504/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\dxVersionChecker.cpp.obj
+[505/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\sfx\openal\win32\LoadOAL.cpp.obj
+[506/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\getdxver.cpp.obj
+[507/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winCPUInfo.cpp.obj
+[508/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winLanguage.cpp.obj
+[509/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winDlibrary.cpp.obj
+[510/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winConsole.cpp.obj
+[511/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winDirectInput.cpp.obj
+[512/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winFileio.cpp.obj
+[513/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winDInputDevice.cpp.obj
+[514/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winMath.cpp.obj
+[515/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winMemory.cpp.obj
+[516/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winFont.cpp.obj
+[517/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winMath_ASM.cpp.obj
+[518/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winInput.cpp.obj
+[519/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winMutex.cpp.obj
+[520/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdatasrc.c.obj
+[521/649] Building RC object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\resources\TSE.rc.res
+
+
+
+[522/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdatadst.c.obj
+[523/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdapistd.c.obj
+[524/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdmarker.c.obj
+[525/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winNet.cpp.obj
+[526/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winStrings.cpp.obj
+[527/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdhuff.c.obj
+[528/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winSemaphore.cpp.obj
+[529/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdinput.c.obj
+[530/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdmainct.c.obj
+[531/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdcolor.c.obj
+[532/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winRedbook.cpp.obj
+[533/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winProcessControl.cpp.obj
+[534/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdcoefct.c.obj
+[535/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jddctmgr.c.obj
+[536/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winThread.cpp.obj
+[537/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdpostct.c.obj
+[538/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdmerge.c.obj
+[539/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdsample.c.obj
+[540/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jidctflt.c.obj
+[541/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdphuff.c.obj
+[542/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jfdctint.c.obj
+[543/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdtrans.c.obj
+[544/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jdmaster.c.obj
+[545/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winTime.cpp.obj
+[546/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jfdctflt.c.obj
+[547/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jerror.c.obj
+[548/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jmemnobs.c.obj
+[549/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jfdctfst.c.obj
+[550/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jidctfst.c.obj
+[551/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jidctred.c.obj
+[552/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jmemmgr.c.obj
+[553/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jquant1.c.obj
+[554/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jquant2.c.obj
+[555/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jidctint.c.obj
+[556/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jutils.c.obj
+[557/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pnggccrd.c.obj
+[558/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngerror.c.obj
+[559/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngmem.c.obj
+[560/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngget.c.obj
+[561/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winUser.cpp.obj
+[562/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngrio.c.obj
+[563/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngrtran.c.obj
+[564/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngwtran.c.obj
+[565/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\png.c.obj
+[566/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngread.c.obj
+[567/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngrutil.c.obj
+[568/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngpread.c.obj
+[569/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngwio.c.obj
+[570/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngtrans.c.obj
+[571/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngset.c.obj
+[572/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngwrite.c.obj
+[573/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngvcrd.c.obj
+[574/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_chunk_prc.c.obj
+[575/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_callback_xs.c.obj
+[576/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngtest.c.obj
+[577/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_chunk_io.c.obj
+[578/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_error.c.obj
+[579/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_chunk_descr.c.obj
+[580/649] Building C object tools\cmake\CMakeFiles\lpng.dir\__\__\engine\lib\lpng\pngwutil.c.obj
+[581/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_dither.c.obj
+[582/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_chunk_xs.c.obj
+[583/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_filter.c.obj
+[584/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_display.c.obj
+[585/649] Building CXX object tools\cmake\CMakeFiles\MBUltra.dir\__\__\engine\source\platformWin32\winWindow.cpp.obj
+[586/649] Linking C static library tools\cmake\lpng.lib
+[587/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_cms.c.obj
+[588/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_jpeg.c.obj
+[589/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_trace.c.obj
+[590/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_hlapi.c.obj
+[591/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcapimin.c.obj
+[592/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcapistd.c.obj
+[593/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_prop_xs.c.obj
+[594/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_read.c.obj
+[595/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_write.c.obj
+[596/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcdctmgr.c.obj
+[597/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_zlib.c.obj
+[598/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jccoefct.c.obj
+[599/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_object_prc.c.obj
+[600/649] Building C object tools\cmake\CMakeFiles\lmng.dir\__\__\engine\lib\lmng\libmng_pixels.c.obj
+[601/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcmarker.c.obj
+[602/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jccolor.c.obj
+[603/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcinit.c.obj
+[604/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jchuff.c.obj
+[605/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcomapi.c.obj
+[606/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\crc32.c.obj
+[607/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\adler32.c.obj
+[608/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\compress.c.obj
+[609/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcmainct.c.obj
+[610/649] Building C object tools\cmake\CMakeFiles\ljpeg.dir\__\__\engine\lib\ljpeg\jcmaster.c.obj
+[611/649] Linking C static library tools\cmake\lmng.lib
+[612/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\inftrees.c.obj
+[613/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\gzio.c.obj
+[614/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\deflate.c.obj
+[615/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\inflate.c.obj
+[616/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\uncompr.c.obj
+[617/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\infcodes.c.obj
+[618/649] Linking C static library tools\cmake\ljpeg.lib
+[619/649] Building C object tools\cmake\CMakeFiles\lungif.dir\__\__\engine\lib\lungif\gif_err.c.obj
+[620/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\trees.c.obj
+[621/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\infutil.c.obj
+[622/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\zutil.c.obj
+[623/649] Building C object tools\cmake\CMakeFiles\lungif.dir\__\__\engine\lib\lungif\dgif_lib.c.obj
+[624/649] Building C object tools\cmake\CMakeFiles\lungif.dir\__\__\engine\lib\lungif\gifalloc.c.obj
+[625/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\inffast.c.obj
+[626/649] Building C object tools\cmake\CMakeFiles\lungif.dir\__\__\engine\lib\lungif\egif_lib.c.obj
+[627/649] Building C object tools\cmake\CMakeFiles\zlib.dir\__\__\engine\lib\zlib\infblock.c.obj
+[628/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxHeap.cxx.obj
+[629/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxMat3-jacobi.cxx.obj
+[630/649] Linking C static library tools\cmake\lungif.lib
+[631/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxQMetric3.cxx.obj
+[632/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxBlockModel.cxx.obj
+[633/649] Linking C static library tools\cmake\zlib.lib
+[634/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxMat4-jacobi.cxx.obj
+[635/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\geom4d.cxx.obj
+[636/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\mat2.cxx.obj
+[637/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\geom3d.cxx.obj
+[638/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxMatrix.cxx.obj
+[639/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxQMetric.cxx.obj
+[640/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxStdModel.cxx.obj
+[641/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxStdSlim.cxx.obj
+[642/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\MxQSlim.cxx.obj
+[643/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\mixmops.cxx.obj
+[644/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\mat3.cxx.obj
+[645/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\mat4.cxx.obj
+[646/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\quat.cxx.obj
+[647/649] Building CXX object tools\cmake\CMakeFiles\libqslim.dir\__\__\engine\lib\libqslim\mixmsg.cxx.obj
+[648/649] Linking CXX static library tools\cmake\libqslim.lib
+[649/649] Linking CXX executable ..\..\game\MBUltra64_DEBUG.exe
+
+Build finished
